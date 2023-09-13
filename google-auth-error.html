@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="ie=edge">
+    <title>Listium Offline Page</title>
+    <style>
+      .background {
+        background: #eee;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: 'open sans', sans-serif;
+        height: 100vh;
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+      }
+      .content {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .logo-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto 80px;
+      }
+      .logo {
+        margin: 0 auto;
+      }
+      .title {
+        color: hsla(0, 0%, 0%, 0.8);
+        margin: 1em 0;
+        font-weight: 300;
+        font-size: 2em;
+      }
+      .message {
+        font-weight: 400;
+        text-align: center;
+        line-height: 1.5;
+        color: hsla(0, 0%, 0%, 0.8);
+        text-align: left;
+      }
+      .message p {
+        margin: 0.5em 0;
+        text-align: left;
+      }
+      .message strong {
+        font-weight: 600;
+      }
+      .message ol {
+        padding-left: 20px;
+      }
+      .message li {
+        padding-bottom: 10px;
+      }
+      .link-button {
+        display: inline-block;
+        border-radius: 6px;
+        background: #fff;
+        margin: 20px 0;
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+    </style>
+  </head>
+  <body class = "background">
+    <div class="content">
+      <div class="logo-container">
+        <img class="logo" width=200 src="https://listium-res.cloudinary.com/image/upload/v1677810517/logo/logoAndText400.png" />
+      </div>
+      <h2 class="title">Authentication Error</h2>
+      <div class="message">        
+        <p>
+          We have encountered a problem with your Google Authentication. Please try the following:
+        </p>
+        <ol>
+          <li>Log out of the Google account you are trying to use with Listium, and log back in. If that doesn’t work…</li>
+          <li>Log out of the Google account and clear your browser cache. If that doesn’t work…</li>
+          <li>Try a different browser. If that doesn’t work…</li>
+          <li>Contact Listium support at support@listium.com and we will try to help.</li>
+        </ol>
+        <p>
+          This issue is affecting tiny percentage of users trying to create an account on Listium, which is making it very hard to diagnose the issue. We’re very sorry this is impacting you, and very grateful for your help if you decide to email us to let us try to solve this issue.
+        </p>
+        <br/>
+        <p>
+          <strong>Thanks, from the team at Listium.</strong>
+        </p>
+        <a class="link-button" href="https:listium.com">Return to Listium.com</a>
+      </div>
+    </div>
+  </body>
+</html>
